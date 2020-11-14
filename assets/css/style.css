@@ -1,0 +1,217 @@
+/*=========== reset all==========*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*======= header==============*/
+header{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+.header-top{
+  background-color:#F2B705;
+}
+.header-top-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.header-top-container a{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.87em;
+  color: #FFFFFF;
+  text-decoration:none ;
+  padding: 5px;
+}
+
+.menu{
+  background-color: #403E39;
+}
+.menu-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+ .menu-container-left-side{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.menu-container .menu-container-left-side > a{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+  font-size: 1.5em;
+}
+.menu-container .check-btn{
+  display: inline-block;
+  font-size:1.5em;
+  color:#fff;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+.menu-container .menu-container-left-side> a span{
+  color:#F24405;
+}
+
+.menu-container nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-container nav ul{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  
+}
+
+.menu-container nav ul li ul{
+  position: absolute;
+  background-color: #403E39;
+  display: none;
+  flex-direction: column;
+  z-index: 999;
+  
+}
+.menu-container nav ul a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size:1.125em;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  letter-spacing: .5px;
+}
+.menu-container nav ul li:hover{
+  background-color: #F24405;
+}
+
+.menu-container nav ul li:hover ul{
+  display: flex;
+}
+
+
+/*============ SEÇÃO INTRODUÇÃO =============*/
+
+.introducao-slide{
+  position: relative;
+}
+.introducao-slide img{
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.introducao-conteudo{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding:90px 0 ;
+
+}
+.introducao-conteudo h1{
+  text-align: center;
+  color:#fff;
+  font-family: 'PT Serif', serif;
+  font-size: 3.75em;
+  letter-spacing: 2px;
+  line-height: 1;
+  
+}
+.introducao-conteudo p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.125em;
+  color:#fff;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  max-width: 709px;
+  line-height: 1.5;
+}
+.introducao-conteudo a{
+  display: inline-block;
+  font-family: 'PT Serif', serif;
+  color:#fff;
+  background: #F24405;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 30px;
+
+}
+
+/*===========Media Query======================*/
+
+@media(max-width: 739px){
+
+  /*======*/
+  header{
+    width: 100%;
+  }
+  .menu-container{
+    flex-direction: column;
+
+  }
+  
+  .menu-container-left-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+  }
+  .menu-container .menu-container-left-side > a,
+  .menu-container .check-btn{
+    padding: 15px;
+  }
+  .menu-container .check-btn{
+    display: block;
+  }
+
+  .menu-container nav{
+    width: 100%;
+  }
+  .menu-container nav ul{
+    flex-direction: column;
+    width: 100%;
+   
+  }
+  .menu-container nav ul li{
+    width: 100%; 
+    text-align: center;
+  }
+  
+
+  #check:checked ~ label {
+    display: flex;
+    background-color: green;
+  }
+
+  .menu-container nav ul li ul{
+    position: relative;
+    
+  }
+
+}
