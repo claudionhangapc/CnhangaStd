@@ -119,5 +119,59 @@
       </div>
     </div>
   </section>
+
+  <!-- SECTION SERVIÇO -->
+  <section class="servico">
+    <h1>SERVIÇOS</h1>
+    <div class="servico-conteudo">
+      <div class="servico-conteudo-item">
+        <div class="servico-conteudo-item-div-esquerdo">
+          <img src="assets/images/ensaio-infantil.png" alt=""> 
+        </div>
+        <div class="servico-conteudo-item-div-direito">
+          <h2>ENSAIO INFANTIL</h2>
+          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos os lugares, sempre que preciso.
+          </p>
+          <a href="">VER MAIS</a>
+        </div> 
+      </div>
+
+      <div class="servico-conteudo-item">
+        <div class="servico-conteudo-item-div-esquerdo">
+          <img src="assets/images/ensaio-infantil.png" alt=""> 
+        </div>
+        <div class="servico-conteudo-item-div-direito">
+          <h2>ENSAIO INFANTIL</h2>
+          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos os lugares, sempre que preciso.
+          </p>
+          <a href="">VER MAIS</a>
+        </div>
+      </div>
+
+      <div class="servico-conteudo-item">
+        <div class="servico-conteudo-item-div-esquerdo">
+          <img src="assets/images/ensaio-infantil.png" alt=""> 
+        </div>
+        <div class="servico-conteudo-item-div-direito">
+          <h2>ENSAIO INFANTIL</h2>
+          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos os lugares, sempre que preciso.
+          </p>
+          <a href="">VER MAIS</a>
+        </div>
+        
+      </div>
+
+      <div class="servico-conteudo-item-bottom">
+        <p>
+          Voce pode conhecer outros serviços nosso clicando no botão abaixo
+        </p>
+        <a href="">VER MAIS</a>
+      </div>
+
+      
+
+    </div>
+
+  </section>
 </body>
 </html>
