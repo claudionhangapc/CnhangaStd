@@ -233,6 +233,8 @@ header{
 .servico-conteudo-item-bottom > p{
   padding: 20px 0px;
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
 }
 .servico-conteudo-item-bottom  > a{
   display: inline-block;
@@ -244,6 +246,283 @@ header{
   padding: 15px 27px;
   letter-spacing: .5px;
   background-color:  #F24405;
+}
+
+
+/*===================ULTIMOS SERVICO================*/
+.ultimos-servicos{
+  display: flex;
+  flex-direction: column;
+  background-color:#403E39;
+  margin-top: 60px;
+}
+.ultimos-servicos h1{
+  text-align: center;
+  padding:60px  0;
+  color:#E4E4E4;
+  font-family: 'PT Serif', serif;
+  font-size: 1.875em;
+  letter-spacing: 2px;
+  line-height: 1;
+  
+}
+.ultimos-servicos-item-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+.ultimos-servicos-slide{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content:center; 
+
+}
+.ultimos-servicos-slide > div{
+  flex:1;
+  display: flex;
+}
+.ultimos-servicos-slide > div img{
+  display: block;
+  width: 100%;
+}
+.ultimos-servicos-slide-margin{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ultimos-servicos-item-2{
+  text-align: center;
+  padding: 40px 0;
+}
+.ultimos-servicos-item-2 span{
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  background-color: #5E5D59;
+  border-radius: 50%;
+  margin:0 10px;
+  cursor: pointer;
+}
+.active-sapn{
+  background-color: #F29F05 !important;
+}
+
+.ultimos-servicos-item-3{
+  text-align: center;
+
+}
+
+.ultimos-servicos-item-3 p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color:#E4E4E4;
+  margin-bottom: 40px;
+}
+
+.ultimos-servicos-item-3 a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    font-size: 1.125em;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 27px;
+    letter-spacing: .5px;
+    background-color: #F24405;
+    margin-bottom: 60px;
+}
+/*=================== DEPOIMENTOS ================*/
+.depoimento{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+}
+
+.depoimento h1{
+  text-align: center;
+  color:#403E39;
+  font-family: 'PT Serif', serif;
+  font-size: 1.875em;
+  letter-spacing: 2px;
+  line-height: 1;
+  padding: 60px 0;
+}
+
+.depoimento-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 226px;
+}
+.depoimento-container-itme-1{
+  width: 222px;
+  margin-right: 10px;
+}
+.depoimento-container-itme-1 img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.depoimento-container-itme-2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  max-width: 718px;
+  justify-content: center;
+  align-items: center;
+}
+.depoimento-container-itme-2 p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color:#403E39;
+
+}
+.depoimento-container-itme-2 span{
+  width: 100%;
+  display: flex;
+  color: #F24405;
+  margin-top: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-size:0.875em;
+}
+
+/*===================BLOG================*/
+.blog{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color:#403E39;
+  margin-top: 60px;
+}
+.blog h1{
+  text-align: center;
+  padding:60px  0;
+  color:#E4E4E4;
+  font-family: 'PT Serif', serif;
+  font-size: 1.875em;
+  letter-spacing: 2px;
+  line-height: 1;
+  
+}
+
+.blog-item-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+.blog-slide{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content:center; 
+
+}
+.blog-slide > div{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+.blog-slide > div img{
+  display: block;
+  width: 100%;
+}
+.blog-slide > div .blog-texto h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color:#E4E4E4;
+  /*text-transform: uppercase;*/
+ 
+}
+
+.blog-slide > div .blog-texto span{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  color:#E4E4E4;
+  opacity: 0.7;
+ 
+}
+.blog-slide > div .blog-texto p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  color:#E4E4E4;
+ 
+}
+
+.blog-slide > div .blog-texto a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #F2B705;
+  text-decoration: none;
+  letter-spacing: .5px;
+  margin-top: 10px;
+ 
+}
+
+.ultimos-servicos-slide-margin{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.blog-item-2{
+  text-align: center;
+  padding: 40px 0;
+}
+.blog-item-2 span{
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+  background-color: #5E5D59;
+  border-radius: 50%;
+  margin:0 10px;
+  cursor: pointer;
+}
+.active-sapn{
+  background-color: #F29F05 !important;
+}
+
+.blog-item-3{
+  text-align: center;
+
+}
+
+.blog-item-3 p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color:#E4E4E4;
+  margin-bottom: 40px;
+}
+
+.blog-item-3 a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    font-size: 1.125em;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 27px;
+    letter-spacing: .5px;
+    background-color: #F24405;
+    margin-bottom: 60px;
 }
 /*===========Media Query======================*/
 
