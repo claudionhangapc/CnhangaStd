@@ -524,6 +524,177 @@ header{
     background-color: #F24405;
     margin-bottom: 60px;
 }
+
+/*===================  call-to-action ================*/
+.call-to-action{
+  padding: 60px 0;
+  text-align: center;
+}
+
+.call-to-action p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color: #403E39;
+  max-width: 730px;
+  margin: 0 auto;
+}
+.call-to-action a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 27px;
+  letter-spacing: .5px;
+  background-color: #F24405;
+  margin-top: 40px;
+}
+
+/*=================== rodape ================*/
+.rodape{
+  padding: 60px 0;
+  background-color: #403E39;
+}
+.rodape-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.rodape-container > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  
+}
+.rodape-titulo{
+  display: inline-block;
+  font-family: 'PT Serif', serif;
+  font-size: 1.12em;
+  color:#E4E4E4 !important;
+  text-decoration: none;
+  letter-spacing: .5px;
+  padding: 10px 0;
+}
+.rodape-container > div ul{
+  list-style: none;
+}
+
+.rodape-container > div ul li a{
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  color:#E4E4E4 !important;
+  text-decoration: none;
+  letter-spacing: .5px;
+  padding: 10px 0;
+  opacity: 0.5;
+}
+
+.rodape-li-form{
+  font-family: 'Roboto Mono', monospace;
+  padding-bottom: 10px;
+
+}
+
+.rodape-li-form input[type="text"]{
+  display: inline-block;
+  background-color: #403E39;
+  border: solid 2px #fff;
+  height: 22px;
+  width: 245px;
+  color:#E4E4E4 !important;
+}
+.rodape-li-form input[type="submit"]{
+  border: solid 1px #fff;
+  background-color: #fff;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  height: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#403e39;
+}
+
+
+/*================= ESTILIZANDOS PAGINAS SINGULARES==============*/
+/*======= ESTILIZAÇÃO GERAL ========*/
+.intro-page, .conclu-page{
+  padding: 60px 0;
+  background-color: #707070;
+  text-align: center;
+}
+.intro-page h1{
+  text-align: center;
+  color:#E4E4E4;
+  font-family: 'PT Serif', serif;
+  font-size: 1.875em;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+
+.intro-page p, .conclu-page p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color:#E4E4E4;
+  max-width: 730px;
+  margin-left:  auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+/*============== PAGINA SERVIÇO=============*/
+
+.page-servico{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.page-servico-conteudo{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.page-servico-conteudo ul{
+  list-style: none;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.page-servico-conteudo ul li{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  padding: 10px 0;
+}
+
+.page-servico-conteudo ul li::before{
+  content: "\2022";
+  color: #F29F05;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.class-link{
+  background-color: #F24405;
+  color: #fff !important;
+  margin-left: 40px;
+
+}
+
+.page-servico-conteudo p{
+  margin-bottom: 10px !important;
+}
+
+
 /*===========Media Query======================*/
 
 @media(max-width: 739px){
