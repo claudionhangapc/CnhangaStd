@@ -1,8 +1,4 @@
 
-<?php 
-  include "pages-parts/header.php";
-
-?>
 <section class="intro-page">
   <h1>
     SERVIÇOS
@@ -12,6 +8,7 @@
     tão próxima e preparar-se para novas responsabilidades,
   </p>
 </section>
+<!-- Pagina Serviço -->
 <section class="page-servico">
   <div class="page-servico-conteudo">
     <div class="servico-conteudo-item">
@@ -108,7 +105,3 @@
     tão próxima e preparar-se para novas responsabilidades,
   </p>
 </section>
-<?php 
-  include "pages-parts/footer.php";
-
-?>

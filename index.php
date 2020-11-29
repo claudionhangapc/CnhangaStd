@@ -1,17 +1,10 @@
 <?php 
+  include "functions/function.php";
+
+  
   include "pages-parts/header.php";
 
-?>
-
-
-<?php 
-  include "pages-parts/home.php";
-
-?>
-
-
-
-<?php 
+  carregarPagina();
   include "pages-parts/footer.php";
 
 ?>

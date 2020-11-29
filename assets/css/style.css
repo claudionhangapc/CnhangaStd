@@ -694,7 +694,175 @@ header{
   margin-bottom: 10px !important;
 }
 
+/*===================== ORÇAMENTO =================*/
 
+.page-orcamento{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.page-orcamento-conteudo{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-orcamento-conteudo-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.page-orcamento-conteudo-item-esquerdo{
+  display: flex;
+  flex-direction: column;
+
+}
+.page-orcamento-conteudo-item-esquerdo > div{
+  width:470px;
+  margin-bottom: 20px;
+}
+.page-orcamento-conteudo-item-esquerdo > div label{
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color:#403E39;
+  margin-bottom: 10px;
+}
+
+.page-orcamento-conteudo-item-esquerdo > div input{
+  display: block;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  border:solid 2px #403E39;
+  box-sizing: border-box;
+}
+
+
+
+.page-orcamento-conteudo-item-esquerdo > div input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  opacity: 1; /* Firefox */
+  padding-left: 10px;
+}
+
+.page-orcamento-conteudo-item-esquerdo > div textarea{
+  display: block;
+  height: 160px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  border:solid 2px #403E39;
+  box-sizing: border-box;
+}
+
+
+.page-orcamento-conteudo-item-direito{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.page-orcamento-conteudo-item-direito > div{
+  width:470px;
+  margin-bottom: 20px;
+}
+
+.page-orcamento-conteudo-item-direito > div label{
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color:#403E39;
+  margin-bottom: 10px;
+}
+.label-titulo{
+  margin-top: 30px;
+  margin-bottom: 10px !important;
+  
+}
+.label-titulo label{
+  display: block;
+  color: #FFFFFF !important;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #403E39 !important;
+}
+.class-rua-numero div, .class-bairro-cidade div {
+  display: inline-block;
+}
+.class-rua-numero-1{
+  width: 308px !important;
+}
+.class-rua-numero-2{
+  width: 144px !important;
+  margin-left: 10px;
+}
+
+.class-bairro-cidade-1{
+  width: 226px !important;
+}
+.class-bairro-cidade-2{
+  width: 226px !important;
+  margin-left: 10px;
+}
+
+.page-orcamento-conteudo-item-direito > div input{
+  display: block;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  border:solid 2px #403E39;
+  box-sizing: border-box;
+}
+
+.page-orcamento a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 27px;
+  letter-spacing: .5px;
+  background-color: #F24405;
+  margin-top: 20px;
+}
+
+.page-orcamento-conteudo-item-direito > div input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  opacity: 1; /* Firefox */
+  padding-left: 10px;
+}
+
+/*===================== SOBRE =================*/
+.page-sobre{
+  max-width: 708px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.page-sobre div{
+  margin-bottom: 30px;
+}
+.page-sobre h3{
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color:#F24405;
+  margin-bottom: 20px;
+}
+.page-sobre p{
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+}
 /*===========Media Query======================*/
 
 @media(max-width: 739px){
