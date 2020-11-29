@@ -16,13 +16,12 @@
 
     <div class="header-top">
       <div class="header-top-container">
-          <a href="">WhatsApp: 51982378569</a>
-          <a href="">Peça Orçamento</a>
+          <a href="tel:51982378569">WhatsApp: 51982378569</a>
+          <a href="?pag=orcamento">Peça Orçamento</a>
       </div>
     </div>
 
     <div class="menu">
-      
       <div class="menu-container">
         <div class="menu-container-left-side">
           <a href="?pag=home" class="logo">

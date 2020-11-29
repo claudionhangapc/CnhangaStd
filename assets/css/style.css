@@ -863,6 +863,327 @@ header{
   font-family: 'PT Serif', serif;
   font-size: 1.125em;
 }
+
+/*===================== PORTIFOLIO =================*/
+.page-portifolio{
+  padding: 60px 0;
+  
+  
+}
+.page-portifolio-conteudo{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.page-orcamento-conteudo-item-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-orcamento-conteudo-item-1-1{
+  width: 550px;
+  margin-right: 10px;
+
+}
+.page-orcamento-conteudo-item-1-1 img{
+  display: block;
+  width: 100%;
+}
+
+.page-orcamento-conteudo-item-1-2{
+  width: 390px;
+  margin-left: 10px;
+  
+}
+.page-orcamento-conteudo-item-1-2 img{
+  display: block;
+  width: 100%;
+}
+
+.page-portifolio h3{
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color:#F24405;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.page-portifolio p{
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+}
+
+.page-orcamento-conteudo-item-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.page-orcamento-conteudo-item-2-1{
+  width: 390px;
+  margin-right: 10px;
+
+}
+.page-orcamento-conteudo-item-2-1 img{
+  display: block;
+  width: 100%;
+}
+
+.page-orcamento-conteudo-item-2-2{
+  width: 550px;
+  margin-left: 10px;
+  
+}
+.page-orcamento-conteudo-item-2-2 img{
+  display: block;
+  width: 100%;
+}
+
+
+.page-orcamento-conteudo-item-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page-orcamento-conteudo-item-3-1{
+  margin-right: 10px;
+
+}
+.page-orcamento-conteudo-item-3-1 img{
+  display: block;
+  width: 100%;
+}
+
+.portifolio-div-2{
+  text-align: center;
+}
+.page-portifolio a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #403E39;
+  text-decoration: none;
+  padding: 15px 27px;
+  letter-spacing: .5px;
+  border: 2px solid #F24405;
+  margin-top: 40px;
+
+}
+
+
+/*=================== BLOG ================*/
+
+.page-blog{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 60px 0;
+  
+}
+.page-blog-conteudo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 960px;
+  margin:0 auto;
+}
+
+.page-blog-conteudo-item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.page-blog-conteudo-item-1{
+  width: 390px;
+  margin-right: 10px;
+}
+.page-blog-conteudo-item-1 img{
+  display: flex;
+  width: 100%;
+}
+.page-blog-conteudo-item-2{
+  width: 550px;
+  padding: 10px 0;
+  margin-left: 10px;
+}
+
+.page-blog-conteudo-item-2 h3{
+  font-family: 'PT Serif', serif;
+  font-size: 1.25em;
+  color:#F24405;
+}
+
+.page-blog-conteudo-item-2 span{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  color: #484B4D;
+  opacity: 0.7;
+}
+
+.page-blog-conteudo-item-2 p{
+  margin-bottom: 10px;
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.125em;
+  color: #484B4D;
+}
+.page-blog-conteudo-item-2 a{
+  display: inline-block;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #F2B705;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+.blog-div-2{
+  text-align:center;
+}
+
+.page-blog .blog-div-2 a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #403E39;
+  text-decoration: none;
+  padding: 15px 27px;
+  letter-spacing: .5px;
+  border: 2px solid #F24405;
+  margin-top: 40px;
+}
+
+.page-contato{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:60px 0
+}
+
+.page-blog-conteudo{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.page-contato-conteudo-item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.page-contato-conteudo-item-1{
+  width: 470px;
+  margin-right: 10px;
+}
+.page-contato-conteudo-item-1 > div{
+  margin-bottom: 20px;
+}
+.page-contato-conteudo-item-1 > div label{
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.12em;
+  color: #403E39;
+  margin-bottom: 10px;
+}
+.page-contato-conteudo-item-1 > div input{
+  display: block;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  border: solid 2px #403E39;
+  box-sizing: border-box;
+}
+
+.page-contato-conteudo-item-1 > div input::placeholder{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  opacity: 1; /* Firefox */
+  padding-left: 10px;
+}
+.page-contato-conteudo-item-1 > div textarea {
+  display: block;
+  height: 160px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: solid 2px #403E39;
+  box-sizing: border-box;
+}
+.page-contato-conteudo-item-1 a{
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 27px;
+  letter-spacing: .5px;
+  background-color: #F24405;
+  margin-top: 20px;
+}
+.page-contato-conteudo-item-2{
+  width: 450px;
+  margin-left: 10px;
+  background-color: #403E39;
+  margin-top: 30px;
+  padding: 10px;
+  
+}
+
+.page-contato-conteudo-item-2  > div p{
+  font-family: 'PT Serif', serif;
+  font-size: 0.875em;
+  color:#fff;
+  margin-bottom: 10px;
+}
+.page-contato-conteudo-item-2 > div label{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  color:#fff;
+  opacity: 0.5;
+  display: block;
+  margin-bottom: 20px;
+}
+.page-contato-conteudo-item-2 > div label a{
+  text-decoration: none;
+  color:#fff;
+  opacity: 0.5;
+}
+
+.page-contato-conteudo-item-2 > div ul{
+  list-style: none;
+}
+
+.page-contato-conteudo-item-2 > div ul li a{
+  display: inline-block;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
+  color: #E4E4E4 !important;
+  text-decoration: none;
+  letter-spacing: .5px;
+  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.page-contato-conteudo-item-2 > div:last-child{
+  margin-top: 10px;
+}
+.page-contato-conteudo-item-2 > div img{
+  display: block;
+  width: 100%;
+  height: 274px;
+}
+
 /*===========Media Query======================*/
 
 @media(max-width: 739px){
@@ -912,8 +1233,7 @@ header{
   }
 
   .menu-container nav ul li ul{
-    position: relative;
-    
+    position: relative;  
   }
 
 }
