@@ -1,5 +1,5 @@
 
-<section class="intro-page">
+<section class="intro-page intro-blog">
   <h1>
     BLOG
   </h1>

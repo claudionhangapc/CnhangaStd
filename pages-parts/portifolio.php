@@ -1,5 +1,5 @@
 
-<section class="intro-page">
+<section class="intro-page intro-portifolio">
   <h1>
     PORTIFOLIO
   </h1>

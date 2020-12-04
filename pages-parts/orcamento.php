@@ -1,6 +1,6 @@
 
 
-<section class="intro-page">
+<section class="intro-page intro-orcamento">
   <h1>
     ORÇAMENTO
   </h1>
@@ -10,7 +10,7 @@
   </p>
 </section>
 <!-- Pagina Orçamento-->
-<section class="page-orcamento">
+<section class="page-orcamento ">
   <div class="page-orcamento-conteudo">
     <div class="page-orcamento-conteudo-item">
       <div class="page-orcamento-conteudo-item-esquerdo">

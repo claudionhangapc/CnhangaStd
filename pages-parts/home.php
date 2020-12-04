@@ -2,7 +2,7 @@
   <!-- INTRODUÇAO -->
   <section class="introducao">
     <div class="introducao-slide">
-      <img src="assets/images/img-header-birthday.jpg" alt=""> 
+      <!--<img src="assets/images/img-header-birthday.jpg" alt="">--> 
       <div class="introducao-conteudo">
         <h1>
           ENSAIO 15 ANOS
@@ -23,36 +23,36 @@
     <h1>SERVIÇOS</h1>
     <div class="servico-conteudo">
       <div class="servico-conteudo-item">
-        <div class="servico-conteudo-item-div-esquerdo">
+        <div class="servico-conteudo-item-1">
+          <img src="assets/images/ensaio-pet.png" alt=""> 
+        </div>
+        <div class="servico-conteudo-item-2">
+          <h2>ENSAIO PET</h2>
+          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos
+          </p>
+          <a href="">VER MAIS</a>
+        </div>
+      </div>
+
+      <div class="servico-conteudo-item">
+        <div class="servico-conteudo-item-1">
           <img src="assets/images/ensaio-infantil.png" alt=""> 
         </div>
-        <div class="servico-conteudo-item-div-direito">
+        <div class="servico-conteudo-item-2">
           <h2>ENSAIO INFANTIL</h2>
-          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos os lugares, sempre que preciso.
+          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos 
           </p>
           <a href="">VER MAIS</a>
         </div> 
       </div>
 
       <div class="servico-conteudo-item">
-        <div class="servico-conteudo-item-div-esquerdo">
-          <img src="assets/images/ensaio-infantil.png" alt=""> 
+        <div class="servico-conteudo-item-1">
+          <img src="assets/images/editorial-moda.png" alt=""> 
         </div>
-        <div class="servico-conteudo-item-div-direito">
-          <h2>ENSAIO INFANTIL</h2>
-          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos os lugares, sempre que preciso.
-          </p>
-          <a href="">VER MAIS</a>
-        </div>
-      </div>
-
-      <div class="servico-conteudo-item">
-        <div class="servico-conteudo-item-div-esquerdo">
-          <img src="assets/images/ensaio-infantil.png" alt=""> 
-        </div>
-        <div class="servico-conteudo-item-div-direito">
-          <h2>ENSAIO INFANTIL</h2>
-          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos os lugares, sempre que preciso.
+        <div class="servico-conteudo-item-2">
+          <h2>EDITORIAL DE MODA</h2>
+          <p>Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos 
           </p>
           <a href="">VER MAIS</a>
         </div>
@@ -70,20 +70,29 @@
 
   </section>
 
-  <!-- SECTION SERVIÇO -->
+  <!-- SECTION ULTIMOS SERVIÇOS -->
   <section class="ultimos-servicos">
 
     <h1>ULTIMOS SERVIÇOS</h1>
     <div class="ultimos-servicos-item-1">
       <div class="ultimos-servicos-slide">
-        <div>
+        <div class="relative-positon">
           <img src="assets/images/wedding-3.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
         </div>
-        <div class="ultimos-servicos-slide-margin">
+        <div class="ultimos-servicos-slide-margin relative-positon">
           <img src="assets/images/wedding-2.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
         </div>
-        <div>
+        <div class="relative-positon">
           <img src="assets/images/school.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
         </div>
       </div>
     </div>
@@ -101,7 +110,7 @@
   
   </section>
 
-  <!-- SECTION SERVIÇO -->
+  <!-- SECTION DEPOIMENTOS -->
   <section class="depoimento">
     <h1>DEPOIMENTOS</h1>
     <div class="depoimento-container">
@@ -140,7 +149,7 @@
                 um dicionário de 200 palavras em 
                 Latim, combinado com uma dúzia de..
               </p>
-              <a href=""> LER MAIS</a>
+              <a href=""> ler mais</a>
             </div>
           </div>
           <div class="ultimos-servicos-slide-margin">
@@ -158,7 +167,7 @@
                 um dicionário de 200 palavras em 
                 Latim, combinado com uma dúzia de..
               </p>
-              <a href=""> LER MAIS</a>
+              <a href=""> ler mais</a>
             </div>
           </div>
           <div>
@@ -176,7 +185,7 @@
                 um dicionário de 200 palavras em 
                 Latim, combinado com uma dúzia de..
               </p>
-              <a href=""> LER MAIS</a>
+              <a href=""> ler mais</a>
             </div>
           </div>
         </div>

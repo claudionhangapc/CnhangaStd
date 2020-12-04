@@ -1,5 +1,5 @@
 
-<section class="intro-page">
+<section class="intro-page intro-servico">
   <h1>
     SERVIÇOS
   </h1>
@@ -12,88 +12,44 @@
 <section class="page-servico">
   <div class="page-servico-conteudo">
     <div class="servico-conteudo-item">
-      <div class="servico-conteudo-item-div-esquerdo">
-          <img src="assets/images/ensaio-familia.png" alt=""> 
+      <div class="servico-conteudo-item-1">
+          <img src="assets/images/ensaio-pet.png" alt=""> 
       </div>
-      <div class="servico-conteudo-item-div-direito">
-        <h2>ENSAIO INFANTIL</h2>
+      <div class="servico-conteudo-item-2">
+        <h2>ENSAIO PET</h2>
         <p>
-          Existem muitas variações das passagens 
-          do Lorem Ipsum disponíveis,mas a maior 
-          parte sofreu alterações de alguma forma,
-          pela injecção de humor, ou de palavras 
-          aleatórias que nem sequer parecem 
-          suficientemente
+          Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos
         </p>
-        <ul>
-          <li class="">
-            Tentar ser mais confortavel
-          </li>
-          <li>
-            Tentar ser mais confortavel
-          </li>
-          <li>
-            Tentar ser mais confortavel
-          </li>
-        </ul>
-        <a href="">VER MAIS</a>  <a href="" class="class-link">ORÇAMENTO</a>
+        <a href="">VER MAIS</a>  
+        <a href="" class="class-link">ORÇAMENTO</a>
       </div> 
     </div>
+    
     <div class="servico-conteudo-item">
-      <div class="servico-conteudo-item-div-esquerdo">
-          <img src="assets/images/ensaio-familia.png" alt=""> 
+      <div class="servico-conteudo-item-1">
+          <img src="assets/images/ensaio-infantil.png" alt=""> 
       </div>
-      <div class="servico-conteudo-item-div-direito">
+      <div class="servico-conteudo-item-2">
         <h2>ENSAIO INFANTIL</h2>
         <p>
-          Existem muitas variações das passagens 
-          do Lorem Ipsum disponíveis,mas a maior 
-          parte sofreu alterações de alguma forma,
-          pela injecção de humor, ou de palavras 
-          aleatórias que nem sequer parecem 
-          suficientemente
+          Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos
         </p>
-        <ul>
-          <li class="">
-            Tentar ser mais confortavel
-          </li>
-          <li>
-            Tentar ser mais confortavel
-          </li>
-          <li>
-            Tentar ser mais confortavel
-          </li>
-        </ul>
-        <a href="">VER MAIS</a>  <a href="" class="class-link">ORÇAMENTO</a>
+        <a href="">VER MAIS</a>  
+        <a href="" class="class-link">ORÇAMENTO</a>
       </div> 
     </div>
 
     <div class="servico-conteudo-item">
-      <div class="servico-conteudo-item-div-esquerdo">
-          <img src="assets/images/ensaio-familia.png" alt=""> 
+      <div class="servico-conteudo-item-1">
+          <img src="assets/images/editorial-moda.png" alt=""> 
       </div>
-      <div class="servico-conteudo-item-div-direito">
-        <h2>ENSAIO INFANTIL</h2>
+      <div class="servico-conteudo-item-2">
+        <h2>EDITORIAL DE MODA</h2>
         <p>
-          Existem muitas variações das passagens 
-          do Lorem Ipsum disponíveis,mas a maior 
-          parte sofreu alterações de alguma forma,
-          pela injecção de humor, ou de palavras 
-          aleatórias que nem sequer parecem 
-          suficientemente
+          Álbuns são uma excelente maneira de guardar as fotos e poder revê-las sempre que der vontade. Podem ser usados na decoração da casa ou também levados para todos
         </p>
-        <ul>
-          <li class="">
-            Tentar ser mais confortavel
-          </li>
-          <li>
-            Tentar ser mais confortavel
-          </li>
-          <li>
-            Tentar ser mais confortavel
-          </li>
-        </ul>
-        <a href="">VER MAIS</a>  <a href="" class="class-link">ORÇAMENTO</a>
+        <a href="">VER MAIS</a>  
+        <a href="" class="class-link">ORÇAMENTO</a>
       </div> 
     </div>
   

@@ -1,7 +1,7 @@
 
-<section class="intro-page">
+<section class="intro-page intro-contato">
   <h1>
-    BLOG
+    CONTATO
   </h1>
   <p>
     É a chegada ao limiar da juventude. Deixar para trás a infância

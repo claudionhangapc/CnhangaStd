@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/*================== class geral ================*/
 
 /*======= header==============*/
 header{
@@ -113,23 +114,13 @@ header{
 
 /*============ SEÇÃO INTRODUÇÃO =============*/
 
-.introducao-slide{
-  position: relative;
-}
-.introducao-slide img{
-  display: block;
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-}
 .introducao-conteudo{
-  position: absolute;
-  top: 0;
-  width: 100%;
+  background-image: url('../../assets/images/img-header-birthday.jpg');
+  background-size: cover;
+  padding: 60px 0;
   text-align: center;
-  padding:90px 0 ;
-
 }
+
 .introducao-conteudo h1{
   text-align: center;
   color:#fff;
@@ -158,8 +149,10 @@ header{
   text-decoration: none;
   padding: 15px 30px;
   margin-top: 30px;
-
+  margin-left:auto;
+  margin-right: auto;
 }
+
 
 /*===================SERVICO================*/
 .servico{
@@ -175,6 +168,7 @@ header{
   letter-spacing: 2px;
   line-height: 1;
   padding: 60px 0;
+  
 }
 
 .servico-conteudo{
@@ -187,36 +181,41 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between; 
-  margin-bottom: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px; 
+  
 }
 
-.servico-conteudo-item-div-esquerdo{
+.servico-conteudo-item-1{
   flex-basis: 470px;
 }
-.servico-conteudo-item-div-esquerdo img{
+.servico-conteudo-item-1 img{
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
+  height: 300px;
 }
-.servico-conteudo-item-div-direito{
+.servico-conteudo-item-2{
   flex-basis: 470px;
-  padding: 60px 0;
+  padding: 40px 0;
 }
-.servico-conteudo-item-div-direito h2{
+.servico-conteudo-item-2 h2{
   font-family: 'PT Serif', serif;
   font-size: 1.12em;
   letter-spacing: 2px;
   line-height: 1;
   color: #403E39;
 }
-.servico-conteudo-item-div-direito p{
+.servico-conteudo-item-2 p{
   margin-top: 20px;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.12em;
   margin-bottom: 30px;
   color: #403E39;
+  opacity: 0.95;
 }
-.servico-conteudo-item-div-direito a{
+.servico-conteudo-item-2 a{
   display: inline-block;
   text-transform: uppercase;
   font-family: 'PT Serif', serif;
@@ -227,6 +226,10 @@ header{
   letter-spacing: .5px;
   border: 2px solid #F24405;
 }
+.servico-conteudo-item-2 a:hover{
+  background-color:#F24405;
+  color: #fff;
+}
 .servico-conteudo-item-bottom{
   text-align: center;
 }
@@ -235,6 +238,7 @@ header{
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.12em;
+  opacity: 0.95;
 }
 .servico-conteudo-item-bottom  > a{
   display: inline-block;
@@ -277,6 +281,7 @@ header{
 .ultimos-servicos-slide{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   justify-content:center; 
 
@@ -288,6 +293,44 @@ header{
 .ultimos-servicos-slide > div img{
   display: block;
   width: 100%;
+}
+.ultimos-servicos-slide > div img:hover{
+  background-color: #F24405;
+}
+.relative-positon{
+  position: relative;
+}
+.tolltip{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.5s;
+  text-align: center;
+}
+.tolltip a{
+  display: none;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 27px;
+  letter-spacing: .5px;
+  /*background-color: #F24405;*/
+  margin-bottom: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tolltip:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.tolltip:hover  a{
+  display: inline-block;
 }
 .ultimos-servicos-slide-margin{
   margin-left: 20px;
@@ -321,6 +364,7 @@ header{
   font-size: 1.12em;
   color:#E4E4E4;
   margin-bottom: 40px;
+  opacity: 0.5;
 }
 
 .ultimos-servicos-item-3 a{
@@ -382,6 +426,7 @@ header{
   font-family: 'Roboto Mono', monospace;
   font-size: 1.12em;
   color:#403E39;
+  opacity: 0.95;
 
 }
 .depoimento-container-itme-2 span{
@@ -442,6 +487,7 @@ header{
   font-family: 'Roboto Mono', monospace;
   font-size: 1.12em;
   color:#E4E4E4;
+  text-transform: capitalize;
   /*text-transform: uppercase;*/
  
 }
@@ -453,7 +499,7 @@ header{
   font-family: 'Roboto Mono', monospace;
   font-size: 0.875em;
   color:#E4E4E4;
-  opacity: 0.7;
+  opacity: 0.5;
  
 }
 .blog-slide > div .blog-texto p{
@@ -468,9 +514,9 @@ header{
 
 .blog-slide > div .blog-texto a{
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: 'PT Serif', serif;
-  font-size: 1.125em;
+  font-size: 0.875em;
   color: #F2B705;
   text-decoration: none;
   letter-spacing: .5px;
@@ -510,6 +556,7 @@ header{
   font-size: 1.12em;
   color:#E4E4E4;
   margin-bottom: 40px;
+  opacity: 0.5;
 }
 
 .blog-item-3 a{
@@ -537,6 +584,7 @@ header{
   color: #403E39;
   max-width: 730px;
   margin: 0 auto;
+  opacity: 0.95;
 }
 .call-to-action a{
   display: inline-block;
@@ -629,7 +677,7 @@ header{
 }
 .intro-page h1{
   text-align: center;
-  color:#E4E4E4;
+  color:#fff;
   font-family: 'PT Serif', serif;
   font-size: 1.875em;
   letter-spacing: 2px;
@@ -640,7 +688,7 @@ header{
 .intro-page p, .conclu-page p{
   font-family: 'Roboto Mono', monospace;
   font-size: 1.12em;
-  color:#E4E4E4;
+  color:#fff;
   max-width: 730px;
   margin-left:  auto;
   margin-right: auto;
@@ -649,13 +697,17 @@ header{
 }
 
 /*============== PAGINA SERVIÇO=============*/
-
+.intro-servico{
+  background-image: url('../../assets/images/servico-intro.png');
+  background-size: cover;
+}
 .page-servico{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   padding-top: 60px;
   padding-bottom: 40px;
+  
 }
 .page-servico-conteudo{
   max-width: 960px;
@@ -691,11 +743,14 @@ header{
 }
 
 .page-servico-conteudo p{
-  margin-bottom: 10px !important;
+  margin-bottom: 20px !important;
 }
 
 /*===================== ORÇAMENTO =================*/
-
+.intro-orcamento{
+  background-image: url('../../assets/images/orcamento-intro.png');
+  background-size:cover;
+}
 .page-orcamento{
   display: flex;
   flex-wrap: wrap;
@@ -844,6 +899,11 @@ header{
 }
 
 /*===================== SOBRE =================*/
+.intro-sobre{
+  background-image: url('../../assets/images/sobre-intro.png');
+  background-size:cover;
+}
+
 .page-sobre{
   max-width: 708px;
   margin: 0 auto;
@@ -865,10 +925,13 @@ header{
 }
 
 /*===================== PORTIFOLIO =================*/
+.intro-portifolio{
+  background-image: url('../../assets/images/portifolio-intro.png');
+  background-size:cover;
+}
+
 .page-portifolio{
   padding: 60px 0;
-  
-  
 }
 .page-portifolio-conteudo{
   max-width: 960px;
@@ -979,7 +1042,10 @@ header{
 
 
 /*=================== BLOG ================*/
-
+.intro-blog{
+  background-image: url('../../assets/images/blog-intro.png');
+  background-size:cover;
+}
 .page-blog{
   display: flex;
   flex-direction: column;
@@ -1062,6 +1128,14 @@ header{
   letter-spacing: .5px;
   border: 2px solid #F24405;
   margin-top: 40px;
+}
+
+
+/*=================== BLOG ================*/
+.intro-contato{
+  background-image: url('../../assets/images/contacto-intro.png');
+  background-size:cover;
+
 }
 
 .page-contato{
@@ -1235,5 +1309,102 @@ header{
   .menu-container nav ul li ul{
     position: relative;  
   }
+  /*============ INTRODUCÇÂO ===========*/
+  .introducao-conteudo{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*============ SERVICO ===========*/
+  .servico h1{
+    padding-bottom: 40px;
+  }
+  .servico-conteudo-item{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .servico-conteudo-item-2{
+    text-align: center;
+    padding: 20px 0;
+  }
+  .servico-conteudo-item-bottom > p{
+    padding-top: 0;
+  }
 
+  /*============ ULTIMOS SERVICO ===========*/
+  .ultimos-servicos h1{
+    padding-bottom: 40px;
+  }
+  .ultimos-servicos{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ultimos-servicos-slide{
+    flex-direction: column;
+  }
+  .ultimos-servicos-slide-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .ultimos-servicos-item-2 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .ultimos-servicos-item-3 p {
+    margin-bottom: 20px;
+  }
+
+  /*============ DEPOIMENTOS ===========*/
+  .depoimento h1{
+    padding-bottom: 40px;
+  }
+  .depoimento-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+  }
+  .depoimento-container-itme-1 {
+    margin-right: 0px;
+    margin: 0 auto;
+  }
+  .depoimento-container-itme-2{
+    margin-top: 20px;
+    display: block;
+    margin-left: 0px;
+  }
+  
+  /*============ BLOG ===========*/
+  .blog h1{
+    padding-bottom: 40px;
+  }
+  .blog-item-1{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .blog-slide{
+    flex-direction: column;
+  }
+  .blog-slide > div{
+    margin-bottom: 30px;
+  }
+  .blog-item-2{
+    padding-top: 10px;
+  }
+  .blog-item-3 p{
+    margin-bottom: 20px;
+  }
+  .call-to-action a{
+    margin-top: 20px
+  }
+
+   /*============ RODAPE ===========*/
+   .rodape{
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+  .rodape-container{
+    flex-direction: column;
+  } 
+  .rodape-container > div{
+    /*margin-bottom: 10px;*/
+  }
 }

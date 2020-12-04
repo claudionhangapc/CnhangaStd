@@ -1,5 +1,5 @@
 
-<section class="intro-page">
+<section class="intro-page intro-sobre">
   <h1>
     SOBRE
   </h1>
