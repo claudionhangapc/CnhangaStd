@@ -27,21 +27,21 @@
           <a href="?pag=home" class="logo">
             Cnhanga<span>Std</span>
           </a> 
-          <input type="checkbox" id="check">
+          <input type="checkbox" id="check" >
           <label for="check" class="check-btn">
-            <i class="fa fa-bars">
+            <i class="fa fa-bars" id="icon-menu">
             </i>
           </label>
         </div>
         
-        <nav class="class-nav">
+        <nav class="class-nav" id="main-nav">
           <ul>
             <li>
               <a href="?pag=home">HOME</a>
             </li>
             <li>
               <a href="?pag=servico">SERVIÇO
-                <i class="fa fa-caret-down">
+                <i class="fa fa-caret-down" >
                 </i>
               </a>
               

@@ -90,9 +90,9 @@ header{
   background-color: #403E39;
   display: none;
   flex-direction: column;
-  z-index: 999;
-  
+  z-index: 999; 
 }
+
 .menu-container nav ul a{
   display: inline-block;
   text-transform: uppercase;
@@ -674,6 +674,11 @@ header{
   padding: 60px 0;
   background-color: #707070;
   text-align: center;
+  
+}
+.conclu-page{
+  background-color: #403E39;
+  opacity: 0.9;
 }
 .intro-page h1{
   text-align: center;
@@ -1131,7 +1136,7 @@ header{
 }
 
 
-/*=================== BLOG ================*/
+/*=================== Contato ================*/
 .intro-contato{
   background-image: url('../../assets/images/contacto-intro.png');
   background-size:cover;
@@ -1270,6 +1275,9 @@ header{
     flex-direction: column;
 
   }
+  .introducao-conteudo h1{
+    font-size: 2.5em;
+  }
   
   .menu-container-left-side{
     display: flex;
@@ -1286,35 +1294,39 @@ header{
   .menu-container .check-btn{
     display: block;
   }
-
   .menu-container nav{
     width: 100%;
+    display: none;
   }
   .menu-container nav ul{
     flex-direction: column;
     width: 100%;
-   
   }
   .menu-container nav ul li{
     width: 100%; 
     text-align: center;
   }
   
-
   #check:checked ~ label {
     display: flex;
-    background-color: green;
+    
   }
 
   .menu-container nav ul li ul{
     position: relative;  
   }
+
+  
   /*============ INTRODUCÇÂO ===========*/
   .introducao-conteudo{
     padding-left: 20px;
     padding-right: 20px;
   }
   /*============ SERVICO ===========*/
+  .servico{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .servico h1{
     padding-bottom: 40px;
   }
@@ -1323,13 +1335,13 @@ header{
     padding-right: 10px;
   }
   .servico-conteudo-item-2{
-    text-align: center;
+    text-align: left;
     padding: 20px 0;
   }
   .servico-conteudo-item-bottom > p{
     padding-top: 0;
   }
-
+  
   /*============ ULTIMOS SERVICO ===========*/
   .ultimos-servicos h1{
     padding-bottom: 40px;
@@ -1404,7 +1416,192 @@ header{
   .rodape-container{
     flex-direction: column;
   } 
-  .rodape-container > div{
-    /*margin-bottom: 10px;*/
+   /*.rodape-container > div{
+   margin-bottom: 10px;
+  }*/
+
+  /*============== PAGINA SERVIÇO=============*/
+
+  .page-servico{
+    padding-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+
+  .servico-conteudo-item-1{
+    width: 100%;
+  }
+  .class-link{
+    margin-left: 10px;
+  }
+  .servico-conteudo-item-2{
+    width: 100%;
+  }
+  .servico-conteudo-item-2 a{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /*============== PAGINA ORÇAMENTO=============*/
+  .page-orcamento{
+    flex-direction: column;
+   
+  }
+  .page-orcamento-conteudo-item{
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .page-orcamento-conteudo-item-esquerdo{
+   /* width: calc(100%-20px);
+    padding-left: 10px;
+    padding-right: 10px;*/
+  }
+  .page-orcamento-conteudo-item-esquerdo > div{
+    width: 100%;
+  }
+  .page-orcamento-conteudo-item-direito{
+    margin-left: 0px;
+    /*width: calc(100%-20px);
+    padding-left: 10px;
+    padding-right: 10px;*/
+  }
+  .page-orcamento-conteudo-item-direito > div {
+    width: 100%;
+  }
+  .class-rua-numero div, .class-bairro-cidade div {
+    display: block;
+  }
+  .class-rua-numero-2{
+    margin-left: 0px;
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .class-bairro-cidade-1 {
+    width: 100% !important;
+  }
+  .class-bairro-cidade-2{
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100% !important;
+  }
+  .page-orcamento a{
+    display: block;
+    text-align: center;
+  }
+  /*============== PAGINA SOBRE=============*/
+  
+.page-sobre{
+  padding-right: 20px;
+  padding-left: 20px;
+    }
+
+
+ /*============ PAGINA SERVICO ===========*/
+ .page-portifolio {
+  padding-left:20px;
+  padding-right: 20px;
+  }
+  
+  .page-portifolio-conteudo > div{
+    width: 100%;
+  }
+  .page-orcamento-conteudo-item-1  div{
+    display: block;
+  }
+  .page-orcamento-conteudo-item-1{
+    flex-direction: column;
+    width: 100%;
+  }
+  .page-orcamento-conteudo-item-1-1,
+  .page-orcamento-conteudo-item-1-2{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .page-orcamento-conteudo-item-1-2{
+    margin-top: 20px;
+  }
+
+  .page-orcamento-conteudo-item-2{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .page-orcamento-conteudo-item-2-1,
+  .page-orcamento-conteudo-item-2-2{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .page-orcamento-conteudo-item-2-2{
+    margin-top: 20px;
+  }
+  .page-orcamento-conteudo-item-3-1{
+    margin-right: 0px;
+  }
+
+  /*============ PAGINA BLOG ===========*/
+  .page-blog{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .page-blog-conteudo-item{
+    flex-direction: column;
+    width: 100%;
+  }
+  .page-blog-conteudo-item-1{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0;
+  } 
+  .page-blog-conteudo-item-2{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0;
+  } 
+  .page-blog-conteudo-item-1 img{
+    display: block;
+  }
+  .page-blog-conteudo-item-2 span{
+    margin-bottom: 20px;
+  }
+/*============== PAGINA CONTACTO =============*/
+  /*.page-contato{
+  
+  }*/
+  .page-blog-conteudo{
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .page-contato-conteudo-item{
+    flex-direction: column;
+    width:calc(100% - 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .page-contato-conteudo-item-1{
+    width: 100%;
+    margin-right: 0px;
+    
+  }
+  .page-contato-conteudo-item-1 a{
+    display: block;
+    text-align: center;
+  }
+
+  .page-contato-conteudo-item-2{
+    width: calc(100% - 20px);
+    margin-left: 0;
+  }
+  .page-contato-conteudo-item-2>div{
+    width: 100%;
+  }
+
+  .page-contato-conteudo-item-2 > div img{
+    height: 200px;
+  }
+  
 }

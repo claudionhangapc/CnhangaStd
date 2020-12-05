@@ -70,6 +70,8 @@
     </div>
   </section>
 
+<script src="assets/js/main_script.js">
 
+</script>
 </body>
 </html>
