@@ -700,7 +700,17 @@ header{
   margin-top: 20px;
 
 }
-
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+.erro{
+  display: none;
+  /*background: #FF0000;*/
+  padding: 5px;
+  font-family: 'Roboto Mono', monospace;
+  font-size:0.875em;
+  color:#F24405;
+}
 /*============== PAGINA SERVIÇO=============*/
 .intro-servico{
   background-image: url('../../assets/images/servico-intro.png');
@@ -795,18 +805,22 @@ header{
   margin-bottom: 10px;
 }
 
-.page-orcamento-conteudo-item-esquerdo > div input{
+.page-orcamento-conteudo-item-esquerdo > div input,
+.page-orcamento-conteudo-item-esquerdo > div select{
   display: block;
   height: 40px;
   width: 100%;
   padding-left: 10px;
   border:solid 2px #403E39;
   box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.875em;
 }
 
 
 
-.page-orcamento-conteudo-item-esquerdo > div input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.page-orcamento-conteudo-item-esquerdo > div input::placeholder,
+.page-orcamento-conteudo-item-esquerdo > div select::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-family: 'Roboto Mono', monospace;
   font-size: 0.875em;
   opacity: 1; /* Firefox */
@@ -883,7 +897,7 @@ header{
   box-sizing: border-box;
 }
 
-.page-orcamento a{
+.page-orcamento input[type="submit"]{
   display: inline-block;
   text-transform: uppercase;
   font-family: 'PT Serif', serif;
@@ -894,6 +908,7 @@ header{
   letter-spacing: .5px;
   background-color: #F24405;
   margin-top: 20px;
+  border: solid 1px #F24405;
 }
 
 .page-orcamento-conteudo-item-direito > div input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -1079,6 +1094,7 @@ header{
 .page-blog-conteudo-item-1 img{
   display: flex;
   width: 100%;
+  border-radius: 10px;
 }
 .page-blog-conteudo-item-2{
   width: 550px;
@@ -1140,9 +1156,7 @@ header{
 .intro-contato{
   background-image: url('../../assets/images/contacto-intro.png');
   background-size:cover;
-
 }
-
 .page-contato{
   display: flex;
   flex-direction: column;
@@ -1175,7 +1189,8 @@ header{
   color: #403E39;
   margin-bottom: 10px;
 }
-.page-contato-conteudo-item-1 > div input{
+.page-contato-conteudo-item-1 > div input[type="text"],
+.page-contato-conteudo-item-1 > div input[type="email"]{
   display: block;
   height: 40px;
   width: 100%;
@@ -1199,6 +1214,7 @@ header{
   border: solid 2px #403E39;
   box-sizing: border-box;
 }
+/*
 .page-contato-conteudo-item-1 a{
   display: inline-block;
   text-transform: uppercase;
@@ -1210,7 +1226,19 @@ header{
   letter-spacing: .5px;
   background-color: #F24405;
   margin-top: 20px;
+}*/
+.page-contato-conteudo-item-1 input[type="submit"]{
+  display: inline-block ;
+  text-transform: uppercase;
+  font-family: 'PT Serif', serif;
+  font-size: 1.125em;
+  color: #fff;
+  padding: 15px 27px;
+  background-color: #F24405;
+  letter-spacing: .5px;
+  border: solid 1px #F24405;
 }
+
 .page-contato-conteudo-item-2{
   width: 450px;
   margin-left: 10px;
@@ -1448,6 +1476,11 @@ header{
     flex-direction: column;
    
   }
+  .page-orcamento-conteudo{
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .page-orcamento-conteudo-item{
     flex-direction: column;
     width: 100%;
@@ -1486,9 +1519,10 @@ header{
     margin-left: 0;
     width: 100% !important;
   }
-  .page-orcamento a{
+  .page-orcamento input[type="submit"]{
     display: block;
     text-align: center;
+    width: 100%;
   }
   /*============== PAGINA SOBRE=============*/
   
@@ -1587,9 +1621,10 @@ header{
     margin-right: 0px;
     
   }
-  .page-contato-conteudo-item-1 a{
+  .page-contato-conteudo-item-1 input[type="submit"]{
     display: block;
     text-align: center;
+    width: 100%;
   }
 
   .page-contato-conteudo-item-2{

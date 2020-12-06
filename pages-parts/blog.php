@@ -13,7 +13,7 @@
   <div class="page-blog-conteudo">
     <div class="page-blog-conteudo-item">
       <div class="page-blog-conteudo-item-1">
-        <img src="assets/images/novidade.png" alt=""> 
+        <img src="assets/images/editorial-moda.png" alt=""> 
       </div>
       <div class="page-blog-conteudo-item-2">
         <h3>
@@ -34,7 +34,7 @@
     <!---->
     <div class="page-blog-conteudo-item">
       <div class="page-blog-conteudo-item-1">
-        <img src="assets/images/novidade.png" alt=""> 
+        <img src="assets/images/editorial-moda.png" alt=""> 
       </div>
       <div class="page-blog-conteudo-item-2">
         <h3>
@@ -55,7 +55,7 @@
     <!---->
     <div class="page-blog-conteudo-item">
       <div class="page-blog-conteudo-item-1">
-        <img src="assets/images/novidade.png" alt=""> 
+        <img src="assets/images/editorial-moda.png" alt=""> 
       </div>
       <div class="page-blog-conteudo-item-2">
         <h3>
@@ -76,7 +76,7 @@
     <!---->
     <div class="page-blog-conteudo-item">
       <div class="page-blog-conteudo-item-1">
-        <img src="assets/images/novidade.png" alt=""> 
+        <img src="assets/images/editorial-moda.png" alt=""> 
       </div>
       <div class="page-blog-conteudo-item-2">
         <h3>
@@ -97,7 +97,7 @@
     <!---->
     <div class="page-blog-conteudo-item">
       <div class="page-blog-conteudo-item-1">
-        <img src="assets/images/novidade.png" alt=""> 
+        <img src="assets/images/editorial-moda.png" alt=""> 
       </div>
       <div class="page-blog-conteudo-item-2">
         <h3>

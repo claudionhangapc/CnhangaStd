@@ -47,19 +47,28 @@
               
               <ul>
                 <li>
-                  <a href="#">ENSAIO INFANTIL</a>
+                  <a href="#">Ensaio Gestante</a>
                 </li>
                 <li>
-                  <a href="#">ENSAIO FAMILIA</a>
+                  <a href="#">Ensaio 15 anos</a>
                 </li>
                 <li>
-                  <a href="#">ENSAIO PET</a>
+                  <a href="#">Ensaio Familia </a>
                 </li>
                 <li>
-                  <a href="#">EDITORIAL DE MODA</a>
+                  <a href="#">Ensaio Infantil</a>
                 </li>
                 <li>
-                  <a href="#">CHÁ DE FRALDA</a>
+                  <a href="#">Ensaio Pet</a>
+                </li>
+                <li>
+                  <a href="#">Ensaio / Book</a>
+                </li>
+                <li>
+                  <a href="#">Chá de Fraldas</a>
+                </li>
+                <li>
+                  <a href="#">Editorial de Moda</a>
                 </li>
               </ul>
             </li>

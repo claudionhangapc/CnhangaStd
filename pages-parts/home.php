@@ -9,7 +9,7 @@
         </h1>
         <p>
           É a chegada ao limiar da juventude. Deixar para trás a infância
-          tão próxima e preparar-se para novas responsabilidades, novas descobertas e emoções 
+          tão próxima e preparar-se.
         </p>
         <a href="">
           VER MAIS
@@ -207,7 +207,7 @@
   <section class="call-to-action">
     <p>
       Voce pode conhecer outros serviços nosso clicando no botão abaixo
-      não perca a oportunidade de saber mais sobre os nossos produtos 
+      não perca a oportunidade. 
     </p>
     <a href="">ORÇAMENTO</a>
   </section>
