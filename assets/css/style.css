@@ -704,8 +704,8 @@ input:focus, textarea:focus, select:focus{
   outline: none;
 }
 .erro{
-  display: none;
-  /*background: #FF0000;*/
+  /*display: none;
+  background: #FF0000;*/
   padding: 5px;
   font-family: 'Roboto Mono', monospace;
   font-size:0.875em;
@@ -1098,7 +1098,7 @@ input:focus, textarea:focus, select:focus{
 }
 .page-blog-conteudo-item-2{
   width: 550px;
-  padding: 10px 0;
+  /*padding: 10px 0;*/
   margin-left: 10px;
 }
 

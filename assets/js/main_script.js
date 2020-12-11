@@ -15,88 +15,6 @@ checkInput.addEventListener("change", function(){
   
 });
 
-/*================ Validação Formularioa */
-
-var submitContato = document.getElementById("submit-contato");
-arrayId=["input-nome","input-email","input-assunto","textarea-mensagem"];
-divContatoSpan = document.getElementById("page-contato-conteudo-item-1");
-
-if(submitContato){
-  submitContato.addEventListener("click",function(event){
-    event.preventDefault();
-    displayErrorUsingArrayElement(arrayId);
-    
-    allAspan = divContatoSpan.querySelectorAll("span");
-    var conrollSpan = true;
-    for(var i = 0; i<allAspan.length; i++){
-      if(allAspan[i].style.display==="block"){
-        conrollSpan = false;
-      }
-    }
-    if(conrollSpan){
-      validarEmail(document.getElementById("input-email"));
-    }
-  
-  });
-}
-
-// funçoes singulares
-function isFill(element){
-  if(element.value===""){
-    return true;
-  }else{
-    return false;
-  }
-}
-
-function displayError(element){
-  elementSpan = element.parentNode.querySelector("span");
-  
-  if(isFill(element)){
-    elementSpan.style.display="block";
-  }else{
-    elementSpan.style.display="none";
-  }
-}
-
-function displayErrorUsingArrayElement(arrayId){
-  for(i=0;i<arrayId.length;i++){
-    elemento = document.getElementById(arrayId[i]);
-    displayError(elemento);
-  }
-}
-
-function validarEmail(element){
-  var emailPattern =  /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
-
-  elementSpan = element.parentNode.querySelector("span");
-
-  if(emailPattern.test(element.value)){
-    elementSpan.innerText="Ops! campo obrigatorio";
-    elementSpan.style.display="none";
-    return true;
-  }else{
-    elementSpan.innerText="Ops! email invalido";
-    elementSpan.style.display="block";
-    return false;
-  }
-      
-}
-
-
-var submitOrcamento = document.getElementById("submit-orcamento");
-if(submitOrcamento){
-  submitOrcamento.addEventListener("click",function(event){
-    event.preventDefault();
-    displayErrorUsingArrayElement(arrayIdOrcamento); 
-  });
-}
-
-
-arrayIdOrcamento=["orcamento-nome","orcamento-tel","orcamento-email","orcamento-evento","orcamento-data","orcamento-observacao",
-"orcamento-rua","orcamento-numero","orcamento-bairro","orcamento-cidade",
-"orcamento-estado"];
-
 
 /*========== Buscando cep de forma automatica====================== */
 
@@ -108,11 +26,10 @@ if(inputCep){
 function contaNummberCep(element){
   if(element.value.length===8){
     getCep(element);
-   return true;
+    return true;
   }else{
     return false;
   }
- 
 }
 
 function getCep(element){
@@ -145,3 +62,110 @@ function requisacao(caminho){
         
       }
     });}
+
+/*========== Validação Formulario ====================== */
+function isFill(element){
+  if(element.value===""){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+function displayError(element){
+  let elementSpan = element.parentNode.querySelector("span");
+  if(isFill(element)){
+    elementSpan.innerText = "ops! campo obrigatorio";
+    elementSpan.style.display="block";
+  }else{
+    elementSpan.style.display="none";
+  }
+}
+
+function displayErrorUsingArrayElement(arrayId){
+  for(let i=0;i<arrayId.length;i++){
+    elemento = document.getElementById(arrayId[i]);
+    displayError(elemento);
+  }
+}
+
+function validarEmail(element){
+  let emailPattern =  /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+  let elementSpan = element.parentNode.querySelector("span");
+
+  if(emailPattern.test(element.value)){
+    elementSpan.innerText="Ops! campo obrigatorio";
+    elementSpan.style.display="none";
+    return true;
+  }else{
+    elementSpan.innerText="Ops! email invalido";
+    elementSpan.style.display="block";
+    return false;
+  }
+      
+}
+
+function activeSubmit(allAspan, idForm){
+  
+  let vericar = true;
+  for(let i = 0; i<allAspan.length; i++){
+    if(allAspan[i].style.display!=="none"){
+      vericar = false;
+    }
+      }
+
+  if(vericar){
+    alert("entrou");
+    document.getElementById(idForm).submit();;
+    }else{
+       alert("saiu");
+    }
+}
+
+function displayNoneAllSpan(elementPai){
+  if(elementPai){
+    let allAspan = elementPai.querySelectorAll("span");
+    for(var i = 0; i<allAspan.length; i++){
+      if(allAspan[i].innerText===""){
+        allAspan[i].style.display="none";
+      }   
+    }
+  }
+}
+
+// contatto
+var divContatoSpan = document.getElementById("page-contato-conteudo-item-1");
+var arrayId=["input-nome","input-email","input-assunto","textarea-mensagem"];
+var submitContato = document.getElementById("submit-contato");
+displayNoneAllSpan(divContatoSpan);
+
+if(submitContato){
+  submitContato.addEventListener("click",function(event){
+    event.preventDefault();
+    displayErrorUsingArrayElement(arrayId);
+    let allAspan = divContatoSpan.querySelectorAll("span");
+    
+    let conrollSpan = true;
+    for(var i = 0; i<allAspan.length; i++){
+      if(allAspan[i].style.display==="block"){
+        conrollSpan = false;
+      }
+    }
+    if(conrollSpan){
+      validarEmail(document.getElementById("input-email"));
+    }
+
+    activeSubmit(allAspan,'form-contato');
+  
+  });
+}
+
+//orçamento
+
+
+var divOrcamentoLESpan = document.getElementById("page-orcamento-conteudo-item-esquerdo");
+displayNoneAllSpan(divOrcamentoLESpan);
+
+
+var divOrcamentoLDSpan = document.getElementById("page-orcamento-conteudo-item-direito");
+displayNoneAllSpan(divOrcamentoLDSpan);
