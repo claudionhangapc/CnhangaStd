@@ -115,10 +115,7 @@ function activeSubmit(allAspan, idForm){
       }
 
   if(vericar){
-    alert("entrou");
     document.getElementById(idForm).submit();;
-    }else{
-       alert("saiu");
     }
 }
 
@@ -154,9 +151,7 @@ if(submitContato){
     if(conrollSpan){
       validarEmail(document.getElementById("input-email"));
     }
-
     activeSubmit(allAspan,'form-contato');
-  
   });
 }
 
@@ -169,3 +164,32 @@ displayNoneAllSpan(divOrcamentoLESpan);
 
 var divOrcamentoLDSpan = document.getElementById("page-orcamento-conteudo-item-direito");
 displayNoneAllSpan(divOrcamentoLDSpan);
+
+/*
+submit-orcamento */
+
+var submitOrcamento = document.getElementById("submit-orcamento");
+var arrayIdOrcamento=["orcamento-nome","orcamento-tel","orcamento-email","orcamento-evento","orcamento-data","orcamento-observacao","orcamento-cep","orcamento-rua","orcamento-numero","orcamento-bairro","orcamento-cidade","orcamento-estado"];
+
+if(submitOrcamento){
+  submitOrcamento.addEventListener("click",function(event){
+    event.preventDefault();
+    
+    displayErrorUsingArrayElement(arrayIdOrcamento);
+    let allAspan =document.querySelector(".page-orcamento-conteudo-item").querySelectorAll("span");
+
+    let conrollSpan = true;
+    for(var i = 0; i<allAspan.length; i++){
+      if(allAspan[i].style.display==="block"){
+        conrollSpan = false;
+      }
+    }
+
+    if(conrollSpan){
+      validarEmail(document.getElementById("orcamento-email"));
+    }
+
+    activeSubmit(allAspan,'form-orcamento');
+    
+  });
+}

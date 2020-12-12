@@ -122,7 +122,7 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
 </section>
 <!-- Pagina Orçamento-->
 <section class="page-orcamento ">
-  <form  action="index.php?pag=orcamento" method="post">
+  <form  action="index.php?pag=orcamento" method="post" id="form-orcamento">
     <div class="page-orcamento-conteudo">
       <div class="page-orcamento-conteudo-item">
         <div class="page-orcamento-conteudo-item-esquerdo" id="page-orcamento-conteudo-item-esquerdo">
@@ -194,7 +194,6 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
         <div class="page-orcamento-conteudo-item-direito" id="page-orcamento-conteudo-item-direito">
           <div class="label-titulo">
             <label for="">Endereço do evento</label>
-            <span class="erro" id=""></span>
           </div>
           <div>
             <label for="">Cep</label>
