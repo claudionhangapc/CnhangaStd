@@ -1,6 +1,6 @@
 # CnhangaStd
-
-## Este é um site simulando uma agencia de fotografia 
+!["CnhangaStd"](assets/images/banner-claudio.jpg)
+### Este é um site simulando uma agencia de fotografia 
 <br/>
 
 ### Estato do Projeto: Em desenvolvimento
@@ -17,10 +17,6 @@
 - [x] Unsplash Image API "https://unsplash.com/developers"
 
 <br/>
-
-### Projeto
-
-!["CnhangaStd"](assets/images/banner-claudio.jpg)
 
 ### pre requistos para rodar a aplicação
 
