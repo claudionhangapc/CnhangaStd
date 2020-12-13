@@ -3,7 +3,7 @@
 ## Este é um site simulando uma agencia de fotografia 
 
 <br/>
-#### Estato do Projeto: Em desenvolvimento
+### Estato do Projeto: Em desenvolvimento
 <br/>
 <br/>
 
