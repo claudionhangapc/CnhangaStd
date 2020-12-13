@@ -193,3 +193,50 @@ if(submitOrcamento){
     
   });
 }
+
+
+
+/*========== Programando os Slides ====================== */
+
+// slide introcução
+
+let currentSlide = 0;
+
+function goPrev(){
+  currentSlide--;
+  if(currentSlide < 0){
+    currentSlide = 2;
+  }
+  updateMargin();
+}
+
+function goNext(){
+  currentSlide++;
+  if(currentSlide>2){
+      currentSlide = 0;
+  }
+    updateMargin();
+  }
+
+function updateMargin(){
+  let slideItemWidth = document.querySelector(".introducao-conteudo").clientWidth;
+  let newMargin = (currentSlide * slideItemWidth);
+  document.querySelector(".introducao-slide").style.marginLeft =`-${newMargin}px`;
+}
+
+setInterval(goNext,4000);
+
+
+// slide utlimos serviço
+function slideMaster(n,elementoSpan){
+  let elementoPrincipal = elementoSpan.parentElement.parentElement.querySelectorAll('.slider-master');
+  let elementoActivo = elementoSpan.parentElement.parentElement.querySelector(".slider-master-ctive");
+  elementoActivo.classList.remove("slider-master-ctive");
+
+  elementoPrincipal[n].className += " slider-master-ctive";
+
+  let elementoActivoSpan = elementoSpan.parentElement.parentElement.querySelector(".active-sapn");
+  elementoActivoSpan.classList.remove("active-sapn");
+  elementoSpan.className += " active-sapn";
+
+}

@@ -113,12 +113,32 @@ header{
 
 
 /*============ SEÇÃO INTRODUÇÃO =============*/
+.introducao{
+  overflow:hidden;
+  position: relative;
+}
+
+.introducao-slide{
+  display: flex;
+  flex-direction: row;
+  width:calc(100vw * 3);
+  transition: all ease 0.3s;
+}
 
 .introducao-conteudo{
-  background-image: url('../../assets/images/img-header-birthday.jpg');
   background-size: cover;
   padding: 60px 0;
   text-align: center;
+  width: 100vw;
+}
+.introducao-conteudo-1{
+  background-image: url('../../assets/images/img-header-birthday.jpg');
+}
+.introducao-conteudo-2{
+  background-image: url('../../assets/images/editorial-moda.png');
+}
+.introducao-conteudo-3{
+  background-image: url('../../assets/images/ensaio-pet.png');
 }
 
 .introducao-conteudo h1{
@@ -154,6 +174,33 @@ header{
 }
 
 
+.btn-intro-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(-0%,-50%);
+  padding: 10px;
+  color: #fff;
+  background: #403E39;
+  border: solid 1px #403E39;
+
+}
+
+.btn-intro-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(-0%,-50%);
+  padding: 10px;
+  color: #fff;
+  background: #403E39;
+  border: solid 1px #403E39;
+}
+
+button:focus {outline:0;}
+/*criar slide*/
 /*===================SERVICO================*/
 .servico{
   display: flex;
@@ -271,11 +318,13 @@ header{
   
 }
 .ultimos-servicos-item-1{
-  display: flex;
+  display: none;
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
+  /*transition: all ease 0.3s;*/
+
 
 }
 .ultimos-servicos-slide{
@@ -379,6 +428,11 @@ header{
     background-color: #F24405;
     margin-bottom: 60px;
 }
+
+.slider-master-ctive{
+ display: flex !important;
+
+}
 /*=================== DEPOIMENTOS ================*/
 .depoimento{
   display: flex;
@@ -458,7 +512,7 @@ header{
 }
 
 .blog-item-1{
-  display: flex;
+  display: none;
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 960px;
@@ -1349,6 +1403,10 @@ input:focus, textarea:focus, select:focus{
   .introducao-conteudo{
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .btn-intro-left, .btn-intro-right{
+    display: none;
   }
   /*============ SERVICO ===========*/
   .servico{

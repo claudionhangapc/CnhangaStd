@@ -3,7 +3,7 @@
   <section class="introducao">
     <div class="introducao-slide">
       <!--<img src="assets/images/img-header-birthday.jpg" alt="">--> 
-      <div class="introducao-conteudo">
+      <div class="introducao-conteudo introducao-conteudo-1">
         <h1>
           ENSAIO 15 ANOS
         </h1>
@@ -15,7 +15,40 @@
           VER MAIS
         </a>
       </div>
+
+      <div class="introducao-conteudo introducao-conteudo-2">
+        <h1>
+          ENSAIO GESTANTE
+        </h1>
+        <p>
+          É a chegada ao limiar da juventude. Deixar para trás a infância
+          tão próxima e preparar-se.
+        </p>
+        <a href="">
+          VER MAIS
+        </a>
+      </div>
+
+      <div class="introducao-conteudo introducao-conteudo-3">
+        <h1>
+         CHA DE FRALDAS
+        </h1>
+        <p>
+          É a chegada ao limiar da juventude. Deixar para trás a infância
+          tão próxima e preparar-se.
+        </p>
+        <a href="">
+          VER MAIS
+        </a>
+      </div>
+
     </div>
+    <button class="btn-intro-left" onclick="goPrev()">
+      <i class="fa fa-angle-left fa-2x"></i>
+    </button>
+    <button class="btn-intro-right" onclick="goNext()">
+      <i class="fa fa-angle-right fa-2x"></i>
+    </button>
   </section>
 
   <!-- SECTION SERVIÇO -->
@@ -74,7 +107,54 @@
   <section class="ultimos-servicos">
 
     <h1>ULTIMOS SERVIÇOS</h1>
-    <div class="ultimos-servicos-item-1">
+
+    <div class="ultimos-servicos-item-1 slider-master">
+      <div class="ultimos-servicos-slide">
+        <div class="relative-positon">
+          <img src="assets/images/wedding-3.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
+        </div>
+        <div class="ultimos-servicos-slide-margin relative-positon">
+          <img src="assets/images/wedding-2.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
+        </div>
+        <div class="relative-positon">
+          <img src="assets/images/school.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ultimos-servicos-item-1 slider-master-ctive slider-master">
+      <div class="ultimos-servicos-slide">
+        <div class="relative-positon">
+          <img src="assets/images/ensaio-infantil.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
+        </div>
+        <div class="ultimos-servicos-slide-margin relative-positon">
+          <img src="assets/images/ensaio-infantil.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
+        </div>
+        <div class="relative-positon">
+          <img src="assets/images/ensaio-infantil.png" alt="">
+          <div class="tolltip">
+            <a href="">VER MAIS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ultimos-servicos-item-1 slider-master">
       <div class="ultimos-servicos-slide">
         <div class="relative-positon">
           <img src="assets/images/wedding-3.png" alt="">
@@ -97,9 +177,9 @@
       </div>
     </div>
     <div class="ultimos-servicos-item-2">
-      <span></span>
-      <span class="active-sapn"></span>
-      <span></span>
+      <span onclick="slideMaster(0,this)"></span>
+      <span class="active-sapn" onclick="slideMaster(1,this)"></span>
+      <span onclick="slideMaster(2,this)" ></span>
     </div>
     <div class="ultimos-servicos-item-3">
       <p>
@@ -132,7 +212,66 @@
   <!-- BLOG -->
   <section class="blog">
     <h1>BLOG</h1>
-      <div class="blog-item-1">
+      <div class="blog-item-1 slider-master">
+        <div class="blog-slide">
+          <div>
+            <img src="assets/images/blog.png" alt="">
+            <div class="blog-texto">
+              <h2>
+                João fotografa beleza e 
+                destruição do Pantanal e fog 
+                dos clichês.
+              </h2>
+              <span> Claudio - outubro 2018</span>
+              <p>
+                fazendo com que este seja o primeiro 
+                verdadeiro  gerador na Internet. Usa 
+                um dicionário de 200 palavras em 
+                Latim, combinado com uma dúzia de..
+              </p>
+              <a href=""> ler mais</a>
+            </div>
+          </div>
+          <div class="ultimos-servicos-slide-margin">
+            <img src="assets/images/blog.png" alt="">
+            <div class="blog-texto">
+              <h2>
+                João fotografa beleza e 
+                destruição do Pantanal e fog 
+                dos clichês.
+              </h2>
+              <span> Claudio - outubro 2018</span>
+              <p>
+                fazendo com que este seja o primeiro 
+                verdadeiro  gerador na Internet. Usa 
+                um dicionário de 200 palavras em 
+                Latim, combinado com uma dúzia de..
+              </p>
+              <a href=""> ler mais</a>
+            </div>
+          </div>
+          <div>
+            <img src="assets/images/blog.png" alt="">
+            <div class="blog-texto">
+              <h2>
+                João fotografa beleza e 
+                destruição do Pantanal e fog 
+                dos clichês.
+              </h2>
+              <span> Claudio - outubro 2018</span>
+              <p>
+                fazendo com que este seja o primeiro 
+                verdadeiro  gerador na Internet. Usa 
+                um dicionário de 200 palavras em 
+                Latim, combinado com uma dúzia de..
+              </p>
+              <a href=""> ler mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-item-1 slider-master-ctive slider-master">
         <div class="blog-slide">
           <div>
             <img src="assets/images/blog.png" alt="">
@@ -190,10 +329,70 @@
           </div>
         </div>
       </div>
+
+      <div class="blog-item-1 slider-master">
+        <div class="blog-slide">
+          <div>
+            <img src="assets/images/blog.png" alt="">
+            <div class="blog-texto">
+              <h2>
+                João fotografa beleza e 
+                destruição do Pantanal e fog 
+                dos clichês.
+              </h2>
+              <span> Claudio - outubro 2018</span>
+              <p>
+                fazendo com que este seja o primeiro 
+                verdadeiro  gerador na Internet. Usa 
+                um dicionário de 200 palavras em 
+                Latim, combinado com uma dúzia de..
+              </p>
+              <a href=""> ler mais</a>
+            </div>
+          </div>
+          <div class="ultimos-servicos-slide-margin">
+            <img src="assets/images/blog1.png" alt="">
+            <div class="blog-texto">
+              <h2>
+                João fotografa beleza e 
+                destruição do Pantanal e fog 
+                dos clichês.
+              </h2>
+              <span> Claudio - outubro 2018</span>
+              <p>
+                fazendo com que este seja o primeiro 
+                verdadeiro  gerador na Internet. Usa 
+                um dicionário de 200 palavras em 
+                Latim, combinado com uma dúzia de..
+              </p>
+              <a href=""> ler mais</a>
+            </div>
+          </div>
+          <div>
+            <img src="assets/images/blog2.png" alt="">
+            <div class="blog-texto">
+              <h2>
+                João fotografa beleza e 
+                destruição do Pantanal e fog 
+                dos clichês.
+              </h2>
+              <span> Claudio - outubro 2018</span>
+              <p>
+                fazendo com que este seja o primeiro 
+                verdadeiro  gerador na Internet. Usa 
+                um dicionário de 200 palavras em 
+                Latim, combinado com uma dúzia de..
+              </p>
+              <a href=""> ler mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="blog-item-2">
-        <span></span>
-        <span class="active-sapn"></span>
-        <span></span>
+        <span onclick="slideMaster(0,this)"></span>
+        <span class="active-sapn" onclick="slideMaster(1,this)"></span>
+        <span onclick="slideMaster(2,this)"></span>
       </div>
       <div class="blog-item-3">
         <p>
