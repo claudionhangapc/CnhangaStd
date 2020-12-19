@@ -20,7 +20,7 @@
   <meta property="og:locale" content="pt_BR" />
   
   <meta property="article:author" content="https://www.facebook.com/claudioj.nhanga.nhanga" />
-  <meta property="arcticle:publisher" content="https://www.facebook.com/claudioj.nhanga.nhanga" />
+  <meta property="article:publisher" content="https://www.facebook.com/claudioj.nhanga.nhanga" />
   
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
