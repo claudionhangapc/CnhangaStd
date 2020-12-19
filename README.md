@@ -3,7 +3,7 @@
 ### Este é um site simulando uma agencia de fotografia hospedado em  <https://claudionhangapc.com/projetos/CnhangaStd/>
 <br/>
 
-### Estato do Projeto: Em desenvolvimento
+### Estatus do Projeto: Em desenvolvimento
 <br/>
 
 ### Tecnlogias Utilizadas 

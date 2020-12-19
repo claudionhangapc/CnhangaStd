@@ -24,7 +24,7 @@ function gerarTitulo(){
   $titulo = "";
   switch($pagina){
     case "home":
-      $titulo = "CnhangaStd - O melhor estudio";
+      $titulo = "Home - CnhangaStd";
       break;
     case "servico":
       $titulo = "Servico - CnhangaStd";
@@ -45,7 +45,7 @@ function gerarTitulo(){
       $titulo = "Contato - CnhangaStd";
       break;
     default:
-      $titulo = "CnhangaStd - O melhor estudio";
+      $titulo = "Home - CnhangaStd";
       break;
 
   }
