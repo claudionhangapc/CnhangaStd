@@ -73,5 +73,14 @@
 <script src="assets/js/main_script.js">
 
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-41QH6JXVGM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-41QH6JXVGM');
+</script>
 </body>
 </html>
