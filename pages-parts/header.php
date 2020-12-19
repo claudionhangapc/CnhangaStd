@@ -6,7 +6,7 @@
   <meta name="description" content="CnhangaStd - Somos um estudio de fotografia com rapido crescimento em São Leopoldo">
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="assets/images/favicon.icon">
+  <link rel="shortcut icon" href="https://claudionhangapc.com/projetos/CnhangaStd/assets/images/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="canonical" href=" https://claudionhangapc.com/projetos/CnhangaStd/">
   <!---------Face Book---------->
